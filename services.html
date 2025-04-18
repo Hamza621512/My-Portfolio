@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="myportfolio.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!------------------------ header section  ------------------------------->
+    <header class="header-bg">
+
+        <div>
+            <h3 class="text">
+                < Hamza's Portfolio />
+            </h3>
+
+            <ul class="nav-bar">
+                <li class="list-item"><a href="index.html"></a><span class="span">Home</span></li>
+                <li class="list-item"><a href="about.html"></a>About</li>
+                <li class="list-item"><a href="services.html"></a>Services</li>
+                <li class="list-item"><a href="projects.html"></a>Projects</li>
+                <li class="list-item"><a href="contactme.html"></a>Contact Me</li>
+            </ul>
+        </div>
+    </header>
+
+    <!-------------------------- section one ------------------------------------>
+    
+    <section class="bg-section">
+        <div>
+            <p class="para">Hi, My name is <span class="main">Hamza</span> <br> and I am a passionate <br> <span
+                    id="element"></span> </p>
+            <p class="sec-para">I Craft Digital Experience that bring to life through code and creativity blend <br>
+                design and code to craft engaging websites that captivate users. Passionate about <br> innovation and
+                quality. </p>
+
+            <img class="banner" src="images/main banner.png" alt="">
+
+            <div class="icons">
+                <i class="icon  fa-brands fa-facebook-f"></i>
+                <i class="icon  fa-brands fa-instagram"></i>
+                <i class="icon  fa-brands fa-linkedin-in"></i>
+                <i class="icon  fa-solid fa-phone"></i>
+            </div>
+            <div class="button">
+                <button onclick="document.location='https://github.com/'" class="btn"> Visit Github </button>
+                <button onclick="document.location='https://github.com/'" class="btn"> Hire Me </button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', '&amp; Web Designer,', 'Wordpress Developer,', 'Graphic Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!--------------------------- Third Section ---------------------------->
+
+    <section class="sec-section">
+        <div>
+            <h3 class="txt">About <span class="txt-sec">Me</span></h3>
+            <h2 class="text-one">Frontend Developer | Wordpress Developer | Graphic Designer</h2>
+            <p class="sec-para">I'm a passionate frontend developer with a strong eye for design and a love for building
+                <br> clean,
+                responsive, and user-friendly web interfaces. I specialize in turning complex <br> problems into
+                intuitive
+                digital experiences using technologies like HTML, CSS, JavaScript, <br> and modern frameworks like React
+                and
+                Vue. Whether I'm collaborating with designers <br> or working alongside backend teams, I thrive in
+                environments where creativity meets <br> functionality. I'm always eager to learn new tools, stay
+                updated
+                with the latest trends, and <br> create web experiences that not only look great but also perform
+                seamlessly
+                across <br> all devices.
+            </p>
+            <img class="banner" src="images/about-me.png" alt="">
+            <button onclick="document.location='https://github.com/'" class="btn"> Let's talk </button>
+        </div>
+    </section>
+
+    <!--------------------------- Third Section ---------------------------->
+
+    <section class="third-section">
+            <h3 class="txt">My <span class="txt-sec">Services</span></h3>
+            <div class="main-box">
+                <div class="hover">
+                    <img class="box-logo" src="images/fd.png" width="90px">
+                    <h2 class="box-txt">Frontend Developer</h2>
+                    <p class="box-para">A frontend developer is responsible for creating the user-facing part of
+                        websites and web
+                        applications. </p>
+                    <button onclick="document.location='https://github.com/'" class="box-btn"> Let's chat </button>
+
+                </div>
+                <div class="hovers">
+                    <img class="box-logo" src="images/wp.png" width="90px">
+                    <h2 class="box-txt">Wordpress Developer</h2>
+                    <p class="box-para">A WordPress developer specializes in building and customizing websites using the
+                        WordPress content </p>
+                    <button onclick="document.location='https://github.com/'" class="box-btn"> Let's chat </button>
+
+                </div>
+                <div class="hover">
+                    <img class="box-logo" src="images/gd.png" width="90px">
+                    <h2 class="box-txt">Graphic Designer</h2>
+                    <p class="box-para">A graphic designer is a creative professional who combines art and technology to
+                        communicate ideas. </p>
+                    <button onclick="document.location='https://github.com/'" class="box-btn"> Let's chat </button>
+
+                </div>
+
+            </div>
+    </section>
+
+
+    <section class="third-section">
+        <h3 class="txt">My <span class="txt-sec">Clients</span></h3>
+        <div class="third-main-box">
+            <div class="third-box">
+                <h2 class="box-txt">James Bennett – TX</h2>
+                <p class="box-paras">Over the years, I’ve had the pleasure of working with a diverse range of clients,
+                    from small startups to established businesses, and their feedback means everything to me. Clients
+                    consistently praise my attention to detail, clear communication, and ability to bring their visions
+                    to life through clean, responsive, and user-friendly websites. <br> <br>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                </p>
+              
+
+            </div>
+            <div class="third-box">
+                <h2 class="box-txt">Mark Wilson – CA</h2>
+                <p class="box-paras">Over the years, I’ve had the opportunity to collaborate with a wide variety of
+                    clients—from entrepreneurs launching their first websites to established companies looking to scale
+                    their digital presence. Across the board, the feedback has been incredibly positive. Clients often
+                    highlight my ability to truly understand their goals. <br> <br>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                    <i class=" star fa-solid fa-star"></i>
+                </p>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="sec-section">
+        <div>
+            <h3 class="txt">My <span class="txt-sec">Community</span></h3>
+            <h2 class="text-one">My Company for the future Web Developer</h2>
+            <p class="sec-para">As a web developer, I’ve been fortunate to build a strong and supportive community <br>  made
+                up of clients, fellow developers, designers, and business owners from across <br>the U.S. and beyond.
+                Whether it's through collaborative projects, sharing knowledge <br>online, or helping small businesses grow
+                their digital presence, I’ve always <br> prioritized building real connections. I’m proud to be part of a
+                creative, tech-savvy <br>network that values innovation, transparency, and mutual growth. From local <br>
+                entrepreneurs to remote collaborations, this community continues to inspire me, <br> push my skills, and keep
+                me focused on delivering meaningful, user-centered <br> web solutions.
+            </p>
+            <img class="banner" src="images/about-me.png" alt="">
+            <button onclick="document.location='https://github.com/'" class="btn"> Join Now </button>
+        </div>
+    </section>
+
+
+    <section class="seco-section">
+            <h3 class="txt">Contact<span class="txt-sec"> Me</span></h3>
+
+            <form action="form-main">
+                    <input class="form" type="text" placeholder="Full Name">
+                    <input class="form" type="text" placeholder="Email Address">
+                    <input class="form" type="text" placeholder="Phone with country code">
+                    <input class="form" type="text" placeholder="Email Subject">
+                    <input class="forms" type="text" placeholder="Your message">
+            </form>
+            <button onclick="document.location='https://github.com/'" class="btnn"> Send Message</button>
+    
+    </section>
+
+<footer class="footer-section">
+    <p>Copyright @ 2025 by Hamza | All Right Reserved.  </p>
+</footer>
+</body>
+
+</html>
